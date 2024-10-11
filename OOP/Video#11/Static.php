@@ -23,7 +23,7 @@ Class Contoh{
     public static $angka = 1;
 
     public function halo(){
-        return "halo " . self::angka++ ."Kali. <br>";
+        return "halo " . self::$angka++ ."Kali. <br>";
     }
 }
 
@@ -40,6 +40,6 @@ echo $obj2->halo();
 echo $obj2->halo();
 
 
-//objek akan melanjutkan hitungan walaupun beda objek
+//Function akan melanjutkan hitungan walaupun beda objek
 
 ?>
