@@ -1,0 +1,9 @@
+<?php 
+define ("BASEURL","http://localhost/PraktikumWeb2/MVC/Video8/public/");
+
+//DB
+
+define("DB_HOST","localhost");
+define("DB_USER","root");
+define("DB_PASS","");
+define("DB_NAME","phpmvc");
